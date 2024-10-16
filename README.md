@@ -3,8 +3,11 @@
 This preset is designed to provide a set of tools to monitor and observe the FastAPI microservices.
 
 ---
+
 [Microservice example](https://github.com/everysoftware/fastapi-auth)  
+
 Inspired by [FastAPI observability](https://github.com/blueswen/fastapi-observability)
+
 ---
 
 ## Tools
