@@ -4,7 +4,7 @@ This preset is designed to provide a set of tools to monitor and observe the Fas
 
 ---
 
-[Microservice example](https://github.com/everysoftware/fastapi-auth)  
+[Microservice example](https://github.com/everysoftware/fastid)  
 
 Inspired by [FastAPI observability](https://github.com/blueswen/fastapi-observability)
 

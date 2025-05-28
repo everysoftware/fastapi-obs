@@ -28,10 +28,11 @@ scrape_configs:
       - targets: [ "localhost:9090" ]
 
   - job_name: 'backend'
+    metrics_path: /api/v1/metrics
 
     # Override the global default and scrape targets from this job every 5 seconds.
     scrape_interval: 5s
 
     static_configs:
       # Add your microservice URLs here
-      - targets: [ 'host.docker.internal:8000' ]
+      - targets: [ 'fastid-app:8000' ]

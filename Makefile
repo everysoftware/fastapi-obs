@@ -1,12 +1,6 @@
-LOGS_SINCE = 10m
-
 .PHONY: up
 up:
 	docker-compose up --build -d
-
-.PHONY: logs
-logs:
-	docker-compose logs --since $(LOGS_SINCE) --follow
 
 .PHONY: stop
 stop:
